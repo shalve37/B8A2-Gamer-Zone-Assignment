@@ -325,7 +325,8 @@
 }
 /* instant play styles */
 .instant-container{
-    padding: 70px 150px 0px 200px;
+    padding: 0px 150px 0px 200px;
+    height: fit-content;
     display: flex;
     gap: 170px;
     justify-content: space-around;
@@ -351,6 +352,9 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 30px;
+}
+.instant-image{
+    margin-top: 100px;
 }
 .instant-image > img{
     width: 100%;
