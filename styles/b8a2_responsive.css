@@ -204,6 +204,23 @@
         border: 1px solid #FF42A5;
         color: #F948B2;
     }
+    .footer-logo{
+        padding: 20px 0px;
+    }
+    .footer-logo img{
+        width: 10%;
+    }
+    .footer-links{
+        padding: 20px 40px 50px 40px;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .footer-policy{
+        padding: 20px 40px;
+        justify-content: center;
+    }
 }
 
 /* tablet view */
@@ -270,5 +287,6 @@
         margin: 0px;
         width: 70%;
     }
+    
 
 }
