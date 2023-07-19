@@ -132,7 +132,7 @@
     background: #4EC5F7;
 }
 .banner-image{ 
-    padding: 118px 100px 0px 0px;
+    padding: 118px 90px 0px 0px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -141,7 +141,97 @@
 .banner-image img{
     height: 472px;
 }
-/* main{
-    height: 100px;
+/* main styles */
+/* gamer styles */
+.gamer-container{
+    padding: 50px 50px;
+    height: 500px;
+    display: flex;
+    gap: 50x;
+    align-items: center;
+    justify-content: space-between;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-} */
+}
+.gamer-text{
+    width: 500px;
+    text-align: right;
+}
+.gamer-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-description-1{
+    padding: 20px 0px;
+    color:var(--secondary-color);
+    font-size: 1rem;
+   font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+.gamer-button{
+    padding: 20px 40px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    background: var(--linear-gradient);
+}
+.gamer-description-2{
+    padding: 20px 0px;
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 45px;
+}
+.gamer-span{
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.gamer-image img{
+   width: 100%;
+}
+/* online-games styles */
+.online-games-container{
+    padding: 50px 150px;
+}
+.online-text{
+    padding-bottom: 30px;
+    text-align: center;
+}
+.online-title{
+    padding-bottom: 15px;
+    color: var(--primary-color);
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+.online-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.online-description{
+    color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.online-card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.card img{
+    width: 250px;
+}
+.online-card-caption{
+    padding-top: 10px;
+    color: var(--secondary-color);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 20px;
+}
