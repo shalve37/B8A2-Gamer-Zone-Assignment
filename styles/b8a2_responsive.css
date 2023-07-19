@@ -1,127 +1,210 @@
 /* mobile view */
 
 @media screen and (max-width:425px) {
+
     /* nav responsive */
-    .nav-container{
+    .nav-container {
         padding: 0px;
         flex-direction: column;
         align-items: center;
         gap: 30px;
     }
-    .nav-logo{
+
+    .nav-logo {
         margin: 50px auto;
         justify-content: center
     }
-    .nav-logo img{
+
+    .nav-logo img {
         width: 40%;
     }
-    .nav-items{
+
+    .nav-items {
         padding-bottom: 50px;
         flex-direction: column;
         gap: 50px;
     }
-    .nav-button{
+
+    .nav-button {
         padding: 15px 30px;
         flex-direction: row;
         gap: 30px;
     }
-    .nav-button:hover{
+
+    .nav-button:hover {
         box-shadow: none;
     }
-    .banner-container{
+
+    .banner-container {
         padding: 0px;
         flex-direction: column-reverse;
         /* align-items: center; */
     }
-    .banner-text{
+
+    .banner-text {
         padding: 15px 0px 20px 0px;
         /* margin: 50px; */
         width: 100%;
         height: fit-content;
         text-align: center;
-        background-size:cover;
+        background-size: cover;
         background-repeat: no-repeat;
     }
-    .banner-intro{
+
+    .banner-intro {
         padding: 0px;
         font-size: 2rem;
     }
-    .banner-title{
+
+    .banner-title {
         padding: 5px;
         font-size: 4.5rem;
     }
-    .banner-text ul{
+
+    .banner-text ul {
         padding-left: 75px;
 
     }
-    .banner-text ul li{
+
+    .banner-text ul li {
         font-size: 0.7rem;
     }
-    .banner-button-1{
+
+    .banner-button-1 {
         margin: 10px 20px 0px 0px;
         padding: 10px 20px;
         font-size: 0.75rem;
     }
-    .banner-button-2{
+
+    .banner-button-2 {
         margin: 10px 45px 0px 0px;
         padding: 10px 20px;
         font-size: 0.75rem;
     }
-    .banner-image{
+
+    .banner-image {
         padding: 0px;
-        margin:20px;
+        margin: 20px;
     }
-    .banner-image img{
+
+    .banner-image img {
         width: 100%;
     }
-    .gamer-container{
+
+    .gamer-container {
         padding: 0px 10px;
         height: fit-content;
         flex-direction: column;
         align-items: center;
     }
-    .gamer-text{
+
+    .gamer-text {
         width: 100%;
         text-align: center;
     }
-    .gamer-button{
+
+    .gamer-button {
         padding: 15px 20px;
         font-size: 1rem;
     }
-    .gamer-image img{
+
+    .gamer-image img {
         width: 100%;
     }
 
+    .online-games-container {
+        padding: 10px;
+    }
+
+    .online-card-container {
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+    }
+
+    .card {
+        padding: 0px 0px;
+        text-align: center;
+    }
+
+    .card img {
+        width: 85%;
+        height: 402px;
+    }
+
+    .online-card-caption {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .watch-button {
+        justify-content: center;
+        align-items: center;
+        left: 100px;
+        top: 150px;
+        width: 50%;
+        height: 20%;
+        border: none;
+        background-color: rgba(88, 81, 81, 0.288);
+        border-radius: none;
+    }
+
+    .watch-button img {
+        width: 40px;
+        height: 40px;
+    }
 }
 
 /* tablet view */
 
-@media screen and (min-width:426px) and (max-width:768px){
+@media screen and (min-width:426px) and (max-width:768px) {
+
     /* nav responsive */
-    .nav-container{
+    .nav-container {
         padding: 50px 100px;
         flex-direction: column;
         align-items: center;
         gap: 40px;
     }
-    .nav-items{
+
+    .nav-items {
         gap: 50px;
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column;
         align-items: center;
     }
-    .banner-image{
+
+    .banner-image {
         padding: 0px;
     }
-    .gamer-container{
+
+    .gamer-container {
         height: fit-content;
         flex-direction: column-reverse;
         align-items: center;
     }
-    .gamer-text{
+
+    .gamer-text {
         text-align: center;
     }
-    
-    
+
+    .online-games-container {
+        padding: 10px 50px;
+    }
+
+    .online-card-container {
+        grid-template-columns: repeat(2, 2fr);
+        text-align: center;
+    }
+
+    .online-card-caption {
+        text-align: center;
+    }
+
+    .watch-button {
+        left: 32px;
+        width: 80%;
+    }
+
 }
