@@ -162,8 +162,47 @@
         text-align: center;
     }
     .instant-image{
+        padding-right: 35px;
         margin: 0px;
         width: 70%;
+    }
+    .instant-badge{
+        position: relative;
+    }
+    .instant-badge img{
+        position:relative;
+        left: -20px;
+        bottom: 100px;
+    }
+    .categories-container{
+        padding:0px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+    .categories-container button{
+        padding: 10px 20px 10px 10px;
+        width:fit-content;
+        align-items: center;
+        justify-content: space-between;
+        border: none;
+        border-radius: 50px;
+        font-size: 0.55rem;
+        font-weight: 600;
+    }
+    .categories-container button p{
+        padding: 0px;
+        width: min-content;
+    }
+    .categories-container button img{
+        width: 35px;
+        height: 35px;
+    }
+    .categories-container button:hover{
+        cursor: pointer;
+        border: 1px solid #FF42A5;
+        color: #F948B2;
     }
 }
 
