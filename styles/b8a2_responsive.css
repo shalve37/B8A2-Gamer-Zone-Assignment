@@ -28,12 +28,58 @@
     .nav-button:hover{
         box-shadow: none;
     }
+    .banner-container{
+        padding: 0px;
+        flex-direction: column-reverse;
+        /* align-items: center; */
+    }
+    .banner-text{
+        padding: 20px 0px 20px 0px;
+        /* margin: 50px; */
+        width: 400px;
+        text-align: center;
+        background-size:contain;
+        background-repeat: no-repeat;
+    }
+    .banner-intro{
+        padding: 0px;
+        font-size: 2rem;
+    }
+    .banner-title{
+        padding: 5px;
+        font-size: 4.5rem;
+    }
+    .banner-text ul{
+        padding-left: 75px;
+
+    }
+    .banner-text ul li{
+        font-size: 0.7rem;
+    }
+    .banner-button-1{
+        margin: 10px 20px 0px 0px;
+        padding: 10px 20px;
+        font-size: 0.75rem;
+    }
+    .banner-button-2{
+        margin: 10px 45px 0px 0px;
+        padding: 10px 20px;
+        font-size: 0.75rem;
+    }
+    .banner-image{
+        padding: 0px;
+        margin:20px;
+    }
+    .banner-image img{
+        width: 100%;
+    }
+    
 
 }
 
 /* tablet view */
 
-@media screen and (min-width:426px) and (max-width:992px){
+@media screen and (min-width:426px) and (max-width:768px){
     /* nav responsive */
     .nav-container{
         padding: 50px 100px;
@@ -44,5 +90,13 @@
     .nav-items{
         gap: 50px;
     }
+    .banner-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-image{
+        padding: 0px;
+    }
+    
     
 }
