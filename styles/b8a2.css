@@ -397,3 +397,81 @@
     border: 1px solid #FF42A5;
     color:#FF42A5;
 }
+/* footer styles */
+footer{
+    padding: 0px auto;
+    background: #0B0223;
+    text-align: center;
+}
+.footer-logo {
+    padding: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-logo img {
+    width: 5%;
+}
+
+.footer-title {
+    color: #ffffff;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.footer-span {
+    color: #FF42A5;
+}
+.footer-links{
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.footer-links a{
+    width: max-content;
+}
+.footer-links a:link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.footer-links a:visited {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.footer-icons img{
+    padding: 0px 20px ;
+    width: 70px;
+}
+.footer-policy{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-policy a:link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.footer-policy a:visited {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.footer-ending{
+    padding: 20px 0px;
+    color: var(--secondary-color);
+}
